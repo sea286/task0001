@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+	height: 80px;
+	background: #cceff2;
+	position: relative;
+}
+
+.wrapper {
+    width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	position: relative;
+}
+.mylogo {
+	width: 200px;
+	height: 80px;
+	overflow: hidden;
+}
+
+.menu {
+    font-family: SimSun;
+	font-size: 14px;
+	overflow: hidden;
+	float: right;
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+
+.menu ul {
+    list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu li {
+    display: inline;
+	margin-left: 28px;
+}
+
+.menu a {
+    text-decoration: none;
+	color: coral;
+}
+
+.githubicon {
+	background: url(../img/icon-github.png) no-repeat;
+	width: 30px;
+	height: 34px;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	
+}
+
