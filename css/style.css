@@ -2,6 +2,11 @@
     padding: 0;
 	margin: 0;
 }
+
+body {
+    background: #EEEEEE;
+}
+
 .header {
     width: 100%;
 	height: 80px;
@@ -90,3 +95,162 @@
 	line-height: 150%
 }
 
+.nav {
+    width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: auto;
+	overflow: auto;
+	display: flex;
+}
+
+.picnav {
+    width: 320px;
+	background: white;
+	float: left;
+	margin-right: 10px;
+	flex: 1;
+}
+
+.last {
+    margin-right: 0px;
+}
+
+.picnav img {
+    width: 300px;
+	height: 180px;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+.picnav p {
+    padding: 15px 30px 25px 30px;
+	font-size: 12px;
+	text-indent: 2em;
+}
+
+.personal {
+    margin-top: 110px; 
+	background: white;
+	height: 500px;
+	color: black;
+	position: relative;
+}
+
+.portrait {
+    border-radius: 50%;
+	height: 160px;
+	width: 160px;
+	background: url(../img/portrait.jpg);
+	background-size: cover;
+	position: absolute;
+	top: -50px;
+	left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;	
+	z-index: 999;
+}
+
+.introduction { 
+    margin: 0 auto;
+	padding-top: 160px;
+	height: auto;
+	width: 600px;
+	clear: both;
+}
+
+.personal h1 {
+    font-size: 20px;
+	font-family: Century Gothic;
+	text-align: center;
+}
+
+.personal p {
+    font-size: 14px;
+	text-indent: 2em;
+	line-height: 150%;
+	margin-top: 20px;
+}
+
+.footer {
+    height: 397px;
+	background: black;
+	color: white;
+	position: relative;
+}
+
+.footer a {
+    text-decoration: none;
+	color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+	line-height: 36px;
+}
+
+.footernav {
+    height: 36px;
+	border-bottom: solid gray 1px;
+}
+
+.footernav ul {
+    text-align: center;
+	margin: auto;
+	height: 36px;
+}
+
+.footernav  li {
+    display: inline;
+	margin-left: 20px;
+	font-size: 12px;
+	line-height: 36px;
+}
+
+.links {
+	
+}
+
+.linkdiv {
+    float: left;
+	margin-top: 44px;
+	margin-left: 114px;
+	margin-right: 40px;
+	font-size: 12px;
+}
+
+.linkdiv span {
+    color: gray;
+}
+
+.links ul {
+    list-style: none;
+	margin-top: 44px;
+}
+
+.links li {
+    line-height: 2em;
+}
+
+.rights {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	width: 80px;
+	text-align: center;
+}
+
+.rights img {
+    display: block;
+	padding-top: 20px;
+	width: 33px;
+	height: 36px;
+	margin-left: auto;
+	margin-right: auto;
+}
